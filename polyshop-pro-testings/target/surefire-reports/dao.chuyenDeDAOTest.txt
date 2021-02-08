@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: dao.chuyenDeDAOTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.091 sec <<< FAILURE!
+dao.chuyenDeDAOTest.testFindById()  Time elapsed: 0.088 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at dao.chuyenDeDAO.select(chuyenDeDAO.java:41)
+	at dao.chuyenDeDAO.findById(chuyenDeDAO.java:103)
+	at dao.chuyenDeDAOTest.testFindById(chuyenDeDAOTest.java:106)
+
+dao.chuyenDeDAOTest.testInsert()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at dao.chuyenDeDAO.insert(chuyenDeDAO.java:55)
+	at dao.chuyenDeDAOTest.testInsert(chuyenDeDAOTest.java:54)
+
+dao.chuyenDeDAOTest.testUpdate()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at dao.chuyenDeDAO.update(chuyenDeDAO.java:70)
+	at dao.chuyenDeDAOTest.testUpdate(chuyenDeDAOTest.java:67)
+
+dao.chuyenDeDAOTest.testSelect()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at dao.chuyenDeDAO.select(chuyenDeDAO.java:41)
+	at dao.chuyenDeDAO.select(chuyenDeDAO.java:93)
+	at dao.chuyenDeDAOTest.testSelect(chuyenDeDAOTest.java:93)
+
+dao.chuyenDeDAOTest.testDelete()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.RuntimeException: java.sql.SQLException: No suitable driver found for jdbc:sqlserver://localhost:1433;databaseName=Polypro
+	at helper.jdbcHelper.executeUpdate(jdbcHelper.java:70)
+	at dao.chuyenDeDAO.delete(chuyenDeDAO.java:84)
+	at dao.chuyenDeDAOTest.testDelete(chuyenDeDAOTest.java:80)
+Caused by: java.sql.SQLException: No suitable driver found for jdbc:sqlserver://localhost:1433;databaseName=Polypro
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at helper.jdbcHelper.preparedStatement(jdbcHelper.java:44)
+	at helper.jdbcHelper.executeUpdate(jdbcHelper.java:63)
+	... 20 more
+

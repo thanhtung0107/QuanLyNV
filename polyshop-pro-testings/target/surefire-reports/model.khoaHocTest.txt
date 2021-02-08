@@ -1,0 +1,112 @@
+-------------------------------------------------------------------------------
+Test set: model.khoaHocTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 13, Errors: 0, Skipped: 0, Time elapsed: 0.213 sec <<< FAILURE!
+model.khoaHocTest.testGetMaKH()  Time elapsed: 0.144 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:84)
+	at model.khoaHocTest.testGetMaKH(khoaHocTest.java:66)
+
+model.khoaHocTest.testSetMaKH()  Time elapsed: 0.007 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <123> but was: <0>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at model.khoaHocTest.testSetMaKH(khoaHocTest.java:79)
+
+model.khoaHocTest.testGetMaCD()  Time elapsed: 0.002 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at model.khoaHocTest.testGetMaCD(khoaHocTest.java:91)
+
+model.khoaHocTest.testGetNgayTao()  Time elapsed: 0.009 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <null> but was: <Mon Oct 26 09:44:27 HOVT 2020>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at model.khoaHocTest.testGetNgayTao(khoaHocTest.java:281)
+
+model.khoaHocTest.testGetThoiLuong()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:84)
+	at model.khoaHocTest.testGetThoiLuong(khoaHocTest.java:173)
+
+model.khoaHocTest.testGetHocPhi()  Time elapsed: 0.002 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: positive delta expected but was: <0.0>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.AssertionUtils.failIllegalDelta(AssertionUtils.java:177)
+	at org.junit.jupiter.api.AssertionUtils.assertValidDelta(AssertionUtils.java:152)
+	at org.junit.jupiter.api.AssertionUtils.doublesAreEqual(AssertionUtils.java:161)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:87)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:83)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:479)
+	at model.khoaHocTest.testGetHocPhi(khoaHocTest.java:118)
+
+model.khoaHocTest.testSetHocPhilon()  Time elapsed: 0.006 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:69)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:36)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:1179)
+	at model.khoaHocTest.testSetHocPhilon(khoaHocTest.java:157)
+
+model.khoaHocTest.testSetHocPhiam()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:69)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:36)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:1179)
+	at model.khoaHocTest.testSetHocPhiam(khoaHocTest.java:146)
+
+model.khoaHocTest.testGetNgayKG()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:84)
+	at model.khoaHocTest.testGetNgayKG(khoaHocTest.java:200)
+
+model.khoaHocTest.testGetMaNV()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at model.khoaHocTest.testGetMaNV(khoaHocTest.java:253)
+
+model.khoaHocTest.testSetHocPhi()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: positive delta expected but was: <0.0>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.AssertionUtils.failIllegalDelta(AssertionUtils.java:177)
+	at org.junit.jupiter.api.AssertionUtils.assertValidDelta(AssertionUtils.java:152)
+	at org.junit.jupiter.api.AssertionUtils.doublesAreEqual(AssertionUtils.java:161)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:87)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:83)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:479)
+	at model.khoaHocTest.testSetHocPhi(khoaHocTest.java:136)
+
+model.khoaHocTest.testGetGhiChu()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at model.khoaHocTest.testGetGhiChu(khoaHocTest.java:226)
+
+model.khoaHocTest.testToString()  Time elapsed: 0.023 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <null (null)>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at model.khoaHocTest.testToString(khoaHocTest.java:50)
+

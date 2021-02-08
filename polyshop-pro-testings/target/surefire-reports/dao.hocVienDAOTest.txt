@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: dao.hocVienDAOTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.097 sec <<< FAILURE!
+dao.hocVienDAOTest.testSelect_String_ObjectArr()  Time elapsed: 0.093 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at dao.hocVienDAO.select(hocVienDAO.java:42)
+	at dao.hocVienDAOTest.testSelect_String_ObjectArr(hocVienDAOTest.java:68)
+
+dao.hocVienDAOTest.testReadFromResultSet()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at dao.hocVienDAO.readFromResultSet(hocVienDAO.java:24)
+	at dao.hocVienDAOTest.testReadFromResultSet(hocVienDAOTest.java:52)
+
+dao.hocVienDAOTest.testUpdate()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at dao.hocVienDAO.update(hocVienDAO.java:63)
+	at dao.hocVienDAOTest.testUpdate(hocVienDAOTest.java:95)
+
+dao.hocVienDAOTest.testDelete()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.RuntimeException: java.sql.SQLException: No suitable driver found for jdbc:sqlserver://localhost:1433;databaseName=Polypro
+	at helper.jdbcHelper.executeUpdate(jdbcHelper.java:70)
+	at dao.hocVienDAO.delete(hocVienDAO.java:72)
+	at dao.hocVienDAOTest.testDelete(hocVienDAOTest.java:108)
+Caused by: java.sql.SQLException: No suitable driver found for jdbc:sqlserver://localhost:1433;databaseName=Polypro
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at helper.jdbcHelper.preparedStatement(jdbcHelper.java:44)
+	at helper.jdbcHelper.executeUpdate(jdbcHelper.java:63)
+	... 20 more
+
+dao.hocVienDAOTest.testSelect_0args()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at dao.hocVienDAO.select(hocVienDAO.java:42)
+	at dao.hocVienDAO.select(hocVienDAO.java:79)
+	at dao.hocVienDAOTest.testSelect_0args(hocVienDAOTest.java:121)
+
+dao.hocVienDAOTest.testInsert()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at dao.hocVienDAO.insert(hocVienDAO.java:54)
+	at dao.hocVienDAOTest.testInsert(hocVienDAOTest.java:82)
+
+dao.hocVienDAOTest.testFindById()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at dao.hocVienDAO.select(hocVienDAO.java:42)
+	at dao.hocVienDAO.findById(hocVienDAO.java:85)
+	at dao.hocVienDAOTest.testFindById(hocVienDAOTest.java:136)
+

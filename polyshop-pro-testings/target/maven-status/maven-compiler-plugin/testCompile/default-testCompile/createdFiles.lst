@@ -1,0 +1,11 @@
+model\nhanVienTest.class
+dao\nhanVienDAOTest.class
+dao\nguoiHocDAOTest.class
+dao\thongKeDAOTest.class
+dao\hocVienDAOTest.class
+dao\khoaHocDAOTest.class
+model\chuyenDeTest.class
+dao\chuyenDeDAOTest.class
+model\nguoiHocTest.class
+model\hocVienTest.class
+model\khoaHocTest.class
